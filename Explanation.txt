@@ -1,0 +1,48 @@
+You are given with a N number, find the number of non-negative integers less than or equal to N, whose binary representations do NOT contain consecutive ones.
+
+Input description:
+N a integer
+
+Output Description:
+find the number of non-negative integers less than or equal to n, whose binary representations do NOT contain consecutive ones.
+
+Sample Input:
+6
+
+Sample Output:
+5
+
+Explanation:
+the binary representation of the numbers within the range:
+0 -> 0
+1 -> 1
+2 -> 10
+3 -> 11
+4 -> 100
+5 -> 101
+6 -> 110
+in this numbers 3,6 have consecutive ones in their binary representation, so the output is 7-2=5
+
+Sample Input:
+9
+
+Sample Output:
+7
+
+Sample Input:
+2
+
+Sample Output:
+3
+
+Sample Input:
+15
+
+Sample Output:
+8
+
+Sample Input:
+22
+
+Sample Output:
+13
